@@ -1,5 +1,5 @@
 <h1 align="center"> Vets In Tech </h1>
-<h2 align="center"> Februrary 2021 Cohort Course Repository </h2>
+<h2 align="center"> April 2021 Cohort Course Repository </h2>
 
 # Week 1 - HTML5 && CSS3
 
