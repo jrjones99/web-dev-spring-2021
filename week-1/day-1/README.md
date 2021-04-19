@@ -36,5 +36,9 @@ inline elements for day 1
 underlying file system concept
  - absolute vs relative path
 
-Exit Ticket
- - **[Socrative Quiz](https://b.socrative.com/login/student/?feature=embed)** 
+### Resources
+**[Visual Studio Code](https://code.visualstudio.com/)** <br>
+**[Spectacle](https://www.spectacleapp.com/)**  <br>
+**[HTML Dog Tag List](http://www.htmldog.com/reference/htmltags/)** <br>
+**[W3Schools Tag List](http://www.w3schools.com/tags/default.asp)** <br>
+**[Quackit HTML Tag List](http://www.quackit.com/html/tags/)** <br>
