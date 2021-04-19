@@ -1,50 +1,5 @@
-HTML+CSS Tutorial
+HTML Tutorial
 =================
-
-### Learning Objectives (Includes some repeats from day 1)
-
-HTML Tags
-- br
-- hr
-- table
-- th
-- tr
-- td
-- p tag
-- html
-- head
-- body
-- img
-- ul
-- ol
-- a
-- attributes
-- structure of html
-- syntax for html
-- Inline and Block elements
-- how webpages work
-
-### What
-
-In these note sections will contain additional details on the learning objectives for each day. You can update
-this file with you own notes during class.
-
-### Why
-
-Why is HTML important? Because it is used in your emails, websites are everywhere and in just about every business. It has become
-somewhat of a life skill to be familiar with HTML.
-
-### How
-How do you know if you are doing well? If you can answer the questions or do these tasks below (and please don't just say in your head yes. Even if you can do it, for practice actually implement these in each section)
-1. In 1 - structure/part1.html, did you change Hello, World! to Hello, WhatEverYourNameIsHere! and see you changes in the browser?
-2. In 2 - Tags/part2.html, can you change the image src to an image you found off of the internet?
-3. In 2 - Tags/part2.html, can you add an a-tag to link to the part2.html file in the same directory?
-4. In 3 - More Tags, can you change the table into a media player where song name, song artist, album name are the columns, and you made up three songs of your choice?
-5. What do we call src and alt on img tags?
-6. In 4 - Linking/home.html, what does the link tag do?
-7. What is the difference between Inline and Block elements?
-8. Why is it important to understand the difference between Inline or Block elements?
-
 
 ## HTML Time. Let's Go.
 
@@ -299,9 +254,26 @@ So, there's two special tags here, `<hr>` and `<br>`.  They are *empty tags*, me
 
 Try inserting these in between some of your `<p>` tags to try it out!
 
+### 4 - Linking
+
+There are multiple ways to think about links. We already covered linking to other webpages. There is also a `<link>` tag that allows you to link to different files.
+
+The most common use of the `<link>` tag is to link your stylesheet with your html. It has a rel and href attribute on it. The rel (relationship) attribute specifies the relationship between the current document and the linked document/resource.
+
+the href attribute specifies the location of the linked document.
+
+Another way of thinking about linking is linking the javascript files to your html. You can do that with the script tag. The important thing to remember here is that you normally want to put the script tag at the very bottom of your body tag. This is because your javascript compiles at run-time i.e. when the page loads. So since that compilation can take time, you would want the user to at least see the HTML and CSS and not wait for the javascript to finish compiling.
+
+Alternatively, you could put a script in the head and use the defer attribute to tell the browser to postpone loading the script until the html and css loads.
+
+You can verify the code is working by opening the console in your browser. If you are using chrome you can right click inspect to view the console.
+
+We'll cover CSS formally on Day 3 and 4.
+We'll cover JS in more detail on Day 5 and onward.
 
 
-##### Inline vs Block elements
+
+##### 5 - Inline vs Block elements
 
 the `<span>` tag is an inline element which means that you can stack this element up side by side horizontally. Other examples of inline elements are:
 * img

@@ -2,8 +2,7 @@
 
 ## START HERE.
 
-Git is a lot to consume if this is your first time working with it. Day 1 is meant to establish
-a baseline for the class so that we can all work at the same level of understanding. We will be reviewing the Prework activity and the tasks necessary to complete it.
+### What are we doing?
 
 Here are the learning objectives:
 
@@ -35,6 +34,29 @@ inline elements for day 1
  
 underlying file system concept
  - absolute vs relative path
+
+### Why?
+
+Because it is used in your emails, websites are everywhere and in just about every business. It has become somewhat of a life skill to be familiar with HTML. To call yourself a web developer, a skill that you need to develop is being able to look at an mock up design and implement it with HTML, CSS, and JS code. In order to do that you need to understand the elements that make up that website.
+
+### How do you know if you are doing well? How do you know if you are on track to be a Front End Developer?
+ If you can answer the questions or do these tasks below (and please don't just say in your head yes. Even if you can do it, for practice actually implement these in each section)
+1. In 1 - structure/part1.html, did you change Hello, World! to Hello, WhatEverYourNameIsHere! and see you changes in the browser?
+2. In 2 - Tags/part2.html, can you change the image src to an image you found off of the internet?
+3. In 2 - Tags/part2.html, can you add an a-tag to link to the part2.html file in the same directory?
+4. In 3 - More Tags, can you change the table into a media player where song name, song artist, album name are the columns, and you made up three songs of your choice?
+5. What do we call src and alt on img tags?
+6. In 4 - Linking/home.html, what does the link tag do?
+7. What is the difference between Inline and Block elements?
+8. Why is it important to understand the difference between Inline or Block elements?
+
+ ### Extra time
+ - correct prework
+ - Mac users install and use spectacle
+ - Everyone install Live-Server and VS Code
+ - go to the video website and download a good video to practice with for tomorrow's lesson.
+ - look ahead to this weekend's homework assignment and start working on it.
+ - Hot seat in the meantime
 
 ### Resources
 **[Visual Studio Code](https://code.visualstudio.com/)** <br>
