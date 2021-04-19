@@ -20,18 +20,18 @@
   - Box Model
 
 
-### 3 Ways to Style a Web Page:
+## 3 Ways to Style a Web Page:
 
-## External Stylesheet
+### External Stylesheet
   -create a .css file
   -link the file in the head of the html
   -preferred method for styling 
   
-## Internal Stylesheet
+### Internal Stylesheet
   -create a stylesheet in the html page
   -least commonly used, but useful for simple 1-page projects
 
-## Inline Styling
+### Inline Styling
   -The most POWERFUL CSS selector
   -Use for: debugging and styling elements you feel VERY STRONGLY about
   -Do NOT use for: Styling your page in general
