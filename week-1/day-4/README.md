@@ -2,12 +2,6 @@
 
 ## Week 1 Day 4
 
-### Things students forget
-- image tags need a width and height to show
-- image tags need the exact relative path to the image as the value of the src attribute
-- if you are using live-server you need to host the image and video files with the html file for it to show
-- when using a table there some default settings like verical alignment which you can change and see in chrome dev tools
-
 ### Warm Up [10 minutes]
 
 At this point, if you're reading this in your editor, you have successfully perform a git pull!

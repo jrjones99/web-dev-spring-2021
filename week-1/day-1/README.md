@@ -50,6 +50,12 @@ Because it is used in your emails, websites are everywhere and in just about eve
 7. What is the difference between Inline and Block elements?
 8. Why is it important to understand the difference between Inline or Block elements?
 
+### Things students forget
+- image tags need a width and height to show
+- image tags need the exact relative path to the image as the value of the src attribute
+- if you are using live-server you need to host the image and video files with the html file for it to show
+- when using a table there some default settings like verical alignment which you can change and see in chrome dev tools
+
  ### Extra time
  - correct prework
  - Mac users install and use spectacle
