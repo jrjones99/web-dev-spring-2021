@@ -59,6 +59,19 @@ https://www.w3schools.com/cssref/pr_font_font-size.asp
 
 ### Retrospective
 
+
+### Concepts
+   -color values
+      - hex colors, color names, color picker
+   - <span> element
+   - CSS Box model
+   - margin, padding, border
+   - shorthand properties?
+   - background, font, display
+   - color, opacity, width/height, text-align
+   - comments
+   - lorem ipsum
+
 ### Assignment
 
 You are going to do all of your work in `assignment.html & assignment.css`
