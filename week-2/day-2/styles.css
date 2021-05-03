@@ -1,0 +1,22 @@
+#window {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  display: flex;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#imageSlider {
+  display: flex;
+  transform: translate( 00px,0);
+  animation: example 4s infinite;
+}
+
+@keyframes example {
+  0% {transition:ease-in; transform: translate(0px, 0);}
+  10% {transition:ease-in; transform: translate(-200px, 0);}
+  20% {transition:ease-in; transform: translate(-400px, 0);}
+  
+  
+}

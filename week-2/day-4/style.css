@@ -1,0 +1,14 @@
+#window {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: 1px solid;
+}
+
+#imageSlider img {
+  width: 200px;
+}
+
+#imageSlider {
+  display: flex;
+}

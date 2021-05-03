@@ -1,0 +1,65 @@
+/* To Do:
+    - Fix buttons look (make arrows that are on side of window and transparent 
+    - Submit to github with git*/
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: blue;
+  color:whitesmoke;
+  font-size: 16px;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: whitesmoke;
+  color: blue;
+}
+
+.window {
+  height: 300px;
+  width: 400px;
+  border: 1px solid;
+  overflow: hidden;
+}
+
+#animatedSlider img, #clickSlider img {
+  width: 400px;
+  height: 300px;
+}
+
+#animatedSlider {
+  display: flex; 
+  transform: translateX(0px);
+  animation: move 20s infinite;
+}
+
+#clickSlider{
+  display: flex;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes move {
+  0% { transition: ease-in; transform: translateX( 00%); }
+  10% { transition: ease-in; transform: translateX(-100%); }
+  20% { transition: ease-in; transform: translateX(-200%); }
+  30% { transition: ease-in; transform: translateX(-300%); }
+  40% { transition: ease-in; transform: translateX(-400%); }
+  50% { transition: ease-in; transform: translateX(-500%); }
+  60% { transition: ease-in; transform: translateX(-400%); }
+  70% { transition: ease-in; transform: translateX(-300%); }
+  80% { transition: ease-in; transform: translateX(-200%); }
+  90% { transition: ease-in; transform: translateX(-100%); }
+  100% { transition: ease-in; transform: translateX(00%); }
+} 
