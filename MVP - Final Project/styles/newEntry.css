@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/navNewEntryBackground.png);
+  background-size: cover;
+}
+
+input {
+  font-size: 1rem;
+}
+
+.button {
+  background-color: #55CB59;
+  color: #fff;
+  margin: 1rem;
+  border: none;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 100%;
+}
+
+.button > a {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.flex-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+#effect {
+  height: 10rem;
+  width: 20rem;
+  font-size: 20px;
+}

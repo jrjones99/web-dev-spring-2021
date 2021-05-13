@@ -1,0 +1,60 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.button {
+  background-color: #55CB59;
+  border: none;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.button > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  color: #fff;
+}
+
+#searchPrv {
+  background-image: url(../images/navSearchBackground.png);
+  background-size: cover;
+}
+
+#newEntry {
+  background-image: url(../images/navNewEntryBackground.png);
+  background-size: cover;
+}
+
+#entry {
+  background-image: url(../images/navExploreBackground.png);
+  background-size: cover;
+}
+
+#newEntry {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}

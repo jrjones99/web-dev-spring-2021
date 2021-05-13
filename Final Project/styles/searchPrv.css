@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/navSearchBackground.png");
+  background-size: cover;
+}
+
+.flex-container {
+  height: 100%;
+  color: #fff;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  background-color: #55CB59;
+  color: #fff;
+  margin: 1rem;
+  border: none;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.button > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#search {
+  height: 5rem;
+  width: 20rem;
+  margin: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}

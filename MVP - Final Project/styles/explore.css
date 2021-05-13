@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/navExploreBackground.png");
+  background-size: cover;
+}
+
+.flex-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  font-size: 3rem;
+}
+
+.button {
+  background-color: #55CB59;
+  color: #fff;
+  margin: 1rem;
+  border: none;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 100%;
+}
+
+.button > a {
+  text-decoration: none;
+  color: #fff;
+
+}
