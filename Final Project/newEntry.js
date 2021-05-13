@@ -8,8 +8,6 @@ let user = {
   again: "",
 }
 
-const localDB = []
-
 function defineUser() {
   let confirm = document.getElementsByTagName("form");
   user.name = document.getElementById("sName").value;
@@ -30,6 +28,4 @@ function defineUser() {
   user.again = document.getElementById("yes").checked;
   console.log('user', user)
   confirm[0].innerHTML = "You have successfuly submitted your response";
-  //  alert('You have successfully submitted your response')
-  // localDB.push(user);
 }
