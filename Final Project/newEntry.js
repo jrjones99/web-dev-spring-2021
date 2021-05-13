@@ -11,6 +11,7 @@ let user = {
 const localDB = []
 
 function defineUser() {
+  let confirm = document.getElementsByTagName("form");
   user.name = document.getElementById("sName").value;
   console.log("name", user.name);
   user.date = document.getElementById("date").value;
@@ -28,6 +29,7 @@ function defineUser() {
   console.log(document.getElementById("user"));
   user.again = document.getElementById("yes").checked;
   console.log('user', user)
-  alert('You have successfully submitted your response')
-  localDB.push(user);
+  confirm[0].innerHTML = "You have successfuly submitted your response";
+  //  alert('You have successfully submitted your response')
+  // localDB.push(user);
 }

@@ -4,6 +4,9 @@ html, body {
   width: 100%;
   background-image: url(../images/navNewEntryBackground.png);
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 input {
