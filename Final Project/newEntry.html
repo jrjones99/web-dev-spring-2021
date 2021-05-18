@@ -9,57 +9,85 @@
 </head>
 <body>
   <div class="flex-container">
+    <h1>New Entry</h1>
     <form action="#" class="flex-container" id="userData">
-      <h1>New Entry</h1>
       <div class="field">
-        <label for="sName"> Strain Name:</label>
-        <input type="text" id="sName" name="sName" placeholder="Name of New Strain">
+        <div>
+          <label for="sName"> Strain Name:</label>
+        </div>
+        <div>
+          <input type="text" class="inputField" id="sName" name="sName">
+        </div>
       </div>
-      <br>
+      
+
+      <div class="field">
+        <div>
+          <label for="date"> Date:</label>
+        </div>
+        <div>
+          <input type="date" class="inputField" id="date" name="date" placeholder="Date of consumtion">
+        </div>
+      </div>
+      
+
+      <div class="field">
+        <div>
+          <label for="time"> Time of <br> Consumption:</label>
+        </div>
+        <div>
+          <input type="time" class="inputField" id="time" name="time" placeholder="When did you take it?">
+        </div>
+      </div>
+      
+      
+      <div class="field">
+        <div>
+          <label for="method"> Method of <br>Consumption:</label>
+        </div>
+        <div>
+          <input type="text" class="inputField" id="method" name="method" placeholder="How did you take it?">
+        </div>
+      </div>
+      
+      
+      <div class="field">
+        <div>
+          <label for="amount"> Amount:</label>
+        </div>
+        <div>
+          <input type="text" class="inputField" id="amount" name="amount" placeholder="How much did you take?">
+        </div>
+      </div>
+      
+      
+      <div class="field">
+        <div>
+          <label for="effect"> Effects:</label>
+        </div>
+        <div>
+          <input type="text" class="inputField" id="effect" name="effect" placeholder="How was the experience">
+        </div>
+      </div>
+      
   
-      <div class="field">
-        <label for="date"> Date:</label>
-        <input type="date" id="date" name="date" placeholder="Date of consumtion">
+      <div class="field" id="radiobtn">
+        <p id="radioTxt">Would you get this again?</p>
+        <div>
+          <input type="radio" id="yes" name="gender" value="yes">
+          <label for="yes">Yes</label><br>
+        </div>
+        <div>
+          <input type="radio" id="no" name="gender" value="no">
+          <label for="no">No</label><br>
+        </div>
       </div>
-      <br>
-      <div class="field">
-        <label for="time"> Time of Consumption:</label>
-        <input type="time" id="time" name="time" placeholder="When did you take it?">
-      </div>
-      
-      <br>
-      <div class="field">
-        <label for="method"> Method of Consumption:</label>
-        <input type="text" id="method" name="method" placeholder="How did you take it?">
-      </div>
-      <br>
-      
-      <div class="field">
-        <label for="amount"> Amount:</label>
-        <input type="text" id="amount" name="amount" placeholder="How much did you take?">
-      </div>
-      <br>
-      
-      <div class="field">
-        <label for="effect"> Effects:</label>
-        <input type="text" id="effect" name="effect" placeholder="How was the experience?">
-      </div>
-      <br>
-  
-      <div class="field">
-        <p>Would you get this again?</p>
-        <input type="radio" id="yes" name="gender" value="yes">
-        <label for="yes">Yes</label><br>
-        <input type="radio" id="no" name="gender" value="no">
-        <label for="no">No</label><br>
-      </div>
-      <div>
+      <div id="flexbtn">
         <input class="button" id="submit" type="button" value="Submit" onclick="defineUser()">       
+        <button class="button" id="backbtn"><a href="./nav.html">Back</a></button>     
       </div>
     </form>
-    <button class="button" id="backbtn"><a href="./nav.html">Back</a></button>     
   </div>
-  
-  <script src="./newEntry.js"></script>
+  <script src="./js/newEntry.js"></script>
 </body>
 </html>

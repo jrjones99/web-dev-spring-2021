@@ -1,3 +1,6 @@
+// ToDo: - Save new entries to local storage (eventually to a database)
+//       - Have back button appear after submittion
+
 let user = {
   name: "",
   date: "",
@@ -10,6 +13,7 @@ let user = {
 
 function defineUser() {
   let confirm = document.getElementsByTagName("form");
+  let backbtn = document.getElementById("backbtn");
   user.name = document.getElementById("sName").value;
   console.log("name", user.name);
   user.date = document.getElementById("date").value;
